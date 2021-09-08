@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title></title>
+</head>
+<style>
+
+.fondo{
+	.fondo{
+                position: absolute;
+                top: -1%;
+                left: -1%;
+                width: 101%;
+                height: 101%;
+                background: #FFC0CB;
+            }
+
+}
+.hola{
+ position: absolute;
+            top: 20px;
+            left: 300px;
+            width: 300px;
+            height: 100px;
+            background:#64B5F6 ;
+            border:solid #000000 2px;
+            font-size: 50px;
+
+        }
+.hola1{
+  position: absolute;
+            top: 50%;
+            left: 50px;
+            width: 69px;
+            height: 200px;
+            background:blue ;
+            border:solid #000000 2px;
+            font-size: 50px;
+            transition: 10s all;
+ 
+        
+
+        }
+        .cerrar{
+ position: absolute;
+            top: 70%;
+            left: 35px;
+            width: 10px;
+            height: 10px;
+            background:blue ;
+            border:solid #000000 2px;
+            font-size: 50px;
+            
+        }
+	
+</style>
+<body background="lol.jpg">
+	<form>
+<label class="lola">cuanto dinero tiene </label><br>
+<input type="text" id="dinero" placeholder="dinero" class="la">
+</form>
+	<div class="fondo"></div>
+	<div class="hola" onclick="hola()"></div>
+    <div  class="hola1" id="lola">
+    	<div class="cerrar" onclick="tomy()" id="cami"></div>
+    </div>
+   <script>
+   	function hola(){
+   		if(dinero.value>=100){
+   			lola.innerHTML="bien echo";
+   		}else{
+       lola.innerHTML="bien echo";
+
+   		}
+   		lola.style.width=50+"%";
+   	}
+   	function tomy(){
+   		lola.style.width=10+"%";
+   		
+   	}
+
+
+</script>
+</body>
+</html>
